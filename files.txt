@@ -1,15 +1,24 @@
+# Oh my zsh with powerlevel10k + lego
 $HOME/.zshrc
 $HOME/.p10k.zsh
 
+# Color code
 $HOME/.config/color_code.png
 
+# hyprland Config
 $HOME/.config/hypr/hyprland.conf
 $HOME/.config/hypr/hyprpaper.conf
 $HOME/.config/hypr/monitors.conf
 $HOME/.config/hypr/workspaces.conf
 
+# waybar Config
 $HOME/.config/waybar/config.jsonc
 $HOME/.config/waybar/modules.jsonc
 $HOME/.config/waybar/style.css
 
+# Terminal Config
 $HOME/.config/kitty/kitty.conf
+
+# Scripts
+$HOME/sw/power_monitor_waybar/power_monitor_waybar.sh
+$HOME/sw/toggle-touchpad/toggle-touchpad.sh
