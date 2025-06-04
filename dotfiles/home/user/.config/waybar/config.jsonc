@@ -1,0 +1,25 @@
+[
+  // {
+  //   "layer": "top", // Waybar on highest layer so tooltips go over windows
+  //   "output": "eDP-1", // Set output to primary monitor
+  //   "height": 36, // Set height to avoid jumping due to active workspace indicator
+
+  //   "modules-left": ["hyprland/workspaces"], // Sets modules for the left of the bar
+  //   "modules-center": ["hyprland/window"], // Set modules for the center of the bar
+  //   "modules-right": ["temperature", "cpu", "memory", "pulseaudio", "clock"], // Set modules for the right of the bar
+
+  //   "include": ["$XDG_CONFIG_HOME/waybar/modules.jsonc"] // Include the module config
+  // },
+
+  {
+    "layer": "top", // Waybar on highest layer so tooltips go over windows
+    "output": "eDP-1", // Set output to secondary monitor
+    "height": 10, // Set height to avoid jumping due to active workspace indicator
+
+    "modules-left": ["hyprland/window"], // Sets modules for the center of the bar
+    "modules-center": ["hyprland/workspaces"], // Sets modules for the left of the bar
+    "modules-right": ["tray", "temperature", "network", "cpu", "memory", "pulseaudio", "custom/battery_power", "battery", "clock"], // Sets modules for the right of the bar
+
+    "include": ["~/.config/waybar/modules.jsonc"] // Include the module config
+  }
+]

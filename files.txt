@@ -1,0 +1,15 @@
+$HOME/.zshrc
+$HOME/.p10k.zsh
+
+$HOME/.config/color_code.png
+
+$HOME/.config/hypr/hyprland.conf
+$HOME/.config/hypr/hyprpaper.conf
+$HOME/.config/hypr/monitors.conf
+$HOME/.config/hypr/workspaces.conf
+
+$HOME/.config/waybar/config.jsonc
+$HOME/.config/waybar/modules.jsonc
+$HOME/.config/waybar/style.css
+
+$HOME/.config/kitty/kitty.conf
