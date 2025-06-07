@@ -80,7 +80,9 @@
     "custom/battery_power": {
       "interval": 1,
       "format": "<span color=\"#FADF7F\">\udb80\udc90  </span>{text}",
-      "exec": "$HOME/sw/power_monitor_waybar/power_monitor_waybar.sh /sys/class/power_supply/BAT0",
+      "format-alt": "<span color=\"#FADF7F\">\udb80\udc90  </span>{alt}",
+      "exec": "$HOME/sw/power_monitor_waybar/power_monitor_waybar.sh /sys/class/power_supply/BAT0 /org/freedesktop/UPower/devices/battery_BAT0",
+      //"exec-if": "$HOME/sw/power_monitor_waybar",
       "return-type": "json"
     }
 }

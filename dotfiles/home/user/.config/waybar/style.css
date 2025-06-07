@@ -83,6 +83,18 @@ window#waybar.empty #window {
   margin-right: 4px;
 }
 
+#tray menu {
+  background-color: rgba(0, 21, 36, 0.8);
+  color: red;
+  border-radius: 8px;
+}
+
+#tray menu menuitem:hover {
+  background-color: #627C85;
+  color: red;
+  border-color: #FADF7F;
+}
+
 #window {
   border-radius: 8px;
   margin-left: 4px;
