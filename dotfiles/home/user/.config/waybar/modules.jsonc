@@ -26,7 +26,7 @@
   },
 
   "pulseaudio": {
-    "scroll-step": 5, // %, can be a float
+    "scroll-step": 0.1, // %, can be a float
     "format": "<span color=\"#FADF7F\">{icon} </span> {volume}%",
     "format-muted": "<span color=\"#f7768e\">\ueb24 </span>Muted",
     "format-icons": ["\ue638", "\ue638", "\ue638"],
